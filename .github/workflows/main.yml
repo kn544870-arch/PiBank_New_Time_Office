@@ -25,10 +25,13 @@ jobs:
           GSJ: ${{ secrets.GOOGLE_SERVICES_JSON }}
         run: |
           if [ -n "$GSJ" ]; then echo "$GSJ" > app/google-services.json; fi
-          test -s app/google-services.json
+          if [ ! -s app/google-services.json ]; then
+            echo "::error::Нет app/google-services.json"
+            exit 1
+          fi
 
       - name: Сборка debug APK
-        run: gradle assembleDebug --stacktrace
+        run: gradle assembleDebug --console=plain
 
       - uses: actions/upload-artifact@v4
         with:
