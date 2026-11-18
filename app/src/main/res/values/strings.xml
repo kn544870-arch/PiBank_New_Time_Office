@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PiBank</string>
+
+    <!-- Authentication -->
+    <string name="login">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="no_account">Нет аккаунта?</string>
+    <string name="have_account">Уже есть аккаунт?</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="logout">Выйти</string>
+
+    <!-- Main Screen -->
+    <string name="balance">Баланс</string>
+    <string name="my_cards">Мои карты</string>
+    <string name="history">История</string>
+    <string name="news">Новости</string>
+    <string name="crypto">Криптовалюты</string>
+
+    <!-- Cards -->
+    <string name="add_card">Добавить карту</string>
+    <string name="card_number">Номер карты</string>
+    <string name="card_holder">Держатель карты</string>
+    <string name="expires">Действует до</string>
+    <string name="cvv">CVV</string>
+    <string name="debit_card">Дебетовая карта</string>
+    <string name="credit_card">Кредитная карта</string>
+    <string name="kids_card">Детская карта</string>
+    <string name="select_card_type">Выберите тип карты</string>
+    <string name="max_cards_reached">Максимум 3 карты</string>
+
+    <!-- Transactions -->
+    <string name="transaction_history">История операций</string>
+    <string name="no_transactions">Нет операций</string>
+    <string name="amount">Сумма</string>
+    <string name="date">Дата</string>
+    <string name="type">Тип</string>
+
+    <!-- News -->
+    <string name="no_news">Новостей пока нет</string>
+    <string name="refresh">Обновить</string>
+
+    <!-- Crypto -->
+    <string name="crypto_balance">Баланс криптовалют</string>
+    <string name="no_crypto">У вас нет криптовалют</string>
+
+    <!-- Admin -->
+    <string name="admin_panel">Панель администратора</string>
+    <string name="search_card">Поиск карты</string>
+    <string name="manage_balance">Управление балансом</string>
+    <string name="block_card">Заблокировать карту</string>
+    <string name="unblock_card">Разблокировать карту</string>
+    <string name="add_news">Добавить новость</string>
+    <string name="manage_crypto">Управление криптовалютами</string>
+    <string name="admin_requests">Заявки на права администратора</string>
+
+    <!-- Errors -->
+    <string name="error_email_empty">Введите email</string>
+    <string name="error_password_empty">Введите пароль</string>
+    <string name="error_password_mismatch">Пароли не совпадают</string>
+    <string name="error_auth_failed">Ошибка аутентификации</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_loading">Ошибка загрузки</string>
+
+    <!-- Messages -->
+    <string name="loading">Загрузка...</string>
+    <string name="success">Успешно</string>
+    <string name="card_created">Карта создана</string>
+    <string name="login_success">Вход выполнен</string>
+    <string name="register_success">Регистрация выполнена</string>
+</resources>

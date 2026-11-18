@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    style="@style/CardStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bitcoin"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/symbolText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BTC"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textSize="14sp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/amountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00000000"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₽0.00"
+                android:textColor="@color/colorTextHint"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/totalValueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₽0.00"
+            android:textColor="@color/neonPurple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
